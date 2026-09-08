@@ -1,0 +1,11 @@
+.app-shell {
+  min-height: 100vh;
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at 80% 10%, rgb(139 92 246 / 6%), transparent 30rem),
+    var(--color-background);
+}
+
+.app-content {
+  min-height: inherit;
+}
