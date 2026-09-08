@@ -1,6 +1,7 @@
 import './styles/app.css'
 import Sidebar from './components/Sidebar'
 import TopNavigation from './components/TopNavigation'
+import HeroSection from './sections/HeroSection'
 
 function App() {
   return (
@@ -11,13 +12,9 @@ function App() {
         <div className="main-panel">
           <TopNavigation />
 
-          <section
-            className="content-stage"
-            id="content-stage"
-            aria-label="Portfolio content"
-          >
-            <h1 className="sr-only">Portfolio</h1>
-          </section>
+          <div className="content-stage" id="content-stage">
+            <HeroSection />
+          </div>
         </div>
       </main>
     </div>
