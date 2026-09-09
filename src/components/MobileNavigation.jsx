@@ -76,8 +76,8 @@ function MobileNavigation() {
         <a className="mobile-brand" href="#home" aria-label="Portfolio home">
           <span className="mobile-brand-mark" aria-hidden="true">R</span>
           <span>
-            <strong>Portfolio</strong>
-            <small>Creative work</small>
+            <strong>RYDON</strong>
+            <small>Full-Stack &amp; UI Design</small>
           </span>
         </a>
 

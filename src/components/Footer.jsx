@@ -17,8 +17,8 @@ function Footer() {
         <div className="footer-brand">
           <span className="footer-brand-mark" aria-hidden="true">R</span>
           <div>
-            <strong>Portfolio Placeholder</strong>
-            <p>Thoughtful digital work, presented with clarity.</p>
+            <strong>RYDON</strong>
+            <p>Full-Stack Development &amp; UI Design.</p>
           </div>
         </div>
 
@@ -29,13 +29,13 @@ function Footer() {
         </nav>
 
         <div className="footer-socials">
-          <SocialLinks id="footer-social-links" href="#contact" placeholder />
+          <SocialLinks id="footer-social-links" />
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {currentYear} Portfolio. All rights reserved.</p>
-        <p>Temporary portfolio content.</p>
+        <p>© {currentYear} RYDON. All rights reserved.</p>
+        <p>Mubarak Goni Sule</p>
       </div>
     </footer>
   )

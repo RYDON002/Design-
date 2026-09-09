@@ -9,13 +9,15 @@ function HeroSection() {
     <section className="hero-section" id="home" aria-labelledby="hero-title">
       <div className="hero-primary">
         <div className="hero-copy">
-          <p className="eyebrow hero-eyebrow">Hello, I&apos;m</p>
+          <p className="eyebrow hero-eyebrow">Hello, It&apos;s Me</p>
           <h1 id="hero-title">
-            Creative <span className="gradient-text">Developer</span>
+            Mubarak <span className="gradient-text">Goni Sule</span>
           </h1>
+          <p className="hero-role">Full-Stack Developer &amp; UI Designer</p>
           <p className="hero-introduction">
-            I shape thoughtful digital experiences where clear design and
-            purposeful development work together.
+            A pragmatic and creative Full-Stack Developer and UI Designer. I
+            build scalable backends, responsive frontends, and polished user
+            interfaces focused on real user needs.
           </p>
 
           <div className="hero-actions">
@@ -47,7 +49,7 @@ function HeroSection() {
 
           <div className="experience-badge">
             <strong>00+</strong>
-            <span>Experience<br />Placeholder</span>
+            <span>Full-Stack<br />Developer</span>
           </div>
         </div>
       </div>

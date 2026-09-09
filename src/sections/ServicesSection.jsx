@@ -4,26 +4,26 @@ import '../styles/services.css'
 
 const services = [
   {
-    title: 'Web Development',
-    description: 'Responsive, maintainable websites built around clear goals and thoughtful user journeys.',
+    title: 'Web Applications',
+    description: 'Full-stack web applications with modern responsive frontends and reliable backend architecture, focused on performance, maintainability, and real user needs.',
     icon: 'code',
     accent: 'pink',
   },
   {
-    title: 'UI/UX Design',
-    description: 'Clean interfaces and intuitive experiences shaped for clarity, accessibility, and ease of use.',
+    title: 'UI & Product Design',
+    description: 'User-centered interface design, responsive layouts, interaction design, prototypes, and implementation-ready visual systems.',
     icon: 'pen',
     accent: 'purple',
   },
   {
-    title: 'Web Applications',
-    description: 'Purposeful interactive products that turn complex requirements into simple digital workflows.',
+    title: 'APIs & Backend Development',
+    description: 'Secure and scalable REST APIs, backend services, database design, authentication flows, and deployment-ready application architecture.',
     icon: 'layers',
     accent: 'blue',
   },
   {
-    title: 'Digital Solutions',
-    description: 'Flexible digital concepts and prototypes designed to explore ideas and support future growth.',
+    title: 'Consulting & Code Review',
+    description: 'Architecture reviews, implementation guidance, debugging, performance improvements, and practical recommendations for improving software quality.',
     icon: 'sparkles',
     accent: 'coral',
   },

@@ -5,9 +5,9 @@ import SocialLinks from '../components/SocialLinks'
 import '../styles/contact.css'
 
 const contactDetails = [
-  { label: 'Email placeholder', value: 'your@email.com', icon: 'contact' },
-  { label: 'Phone placeholder', value: '+000 000 000 0000', icon: 'phone' },
-  { label: 'Location placeholder', value: 'Your Location', icon: 'location' },
+  { label: 'Email', value: 'programmerrydon@gmail.com', href: 'mailto:programmerrydon@gmail.com', icon: 'contact' },
+  { label: 'Phone / WhatsApp', value: '+234 816 299 3717', href: 'https://wa.me/2348162993717', icon: 'phone' },
+  { label: 'Location', value: 'Nigeria', icon: 'location' },
 ]
 
 function ContactSection() {
@@ -18,7 +18,7 @@ function ContactSection() {
           <SectionHeading
             eyebrow="Get In Touch"
             title="Let's Work Together"
-            description="Share a project idea when you're ready; these contact details are temporary placeholders."
+            description="Have a project, collaboration, or development opportunity in mind? Get in touch and let&apos;s discuss how I can help."
             titleId="contact-title"
           />
 
@@ -30,15 +30,15 @@ function ContactSection() {
                 </span>
                 <div>
                   <span>{detail.label}</span>
-                  <strong>{detail.value}</strong>
+                  {detail.href ? <a href={detail.href} target={detail.href.startsWith('https') ? '_blank' : undefined} rel={detail.href.startsWith('https') ? 'noopener noreferrer' : undefined}>{detail.value}</a> : <strong>{detail.value}</strong>}
                 </div>
               </div>
             ))}
           </address>
 
           <div className="contact-socials">
-            <p>Social placeholders</p>
-            <SocialLinks id="contact-social-links" href="#contact" placeholder />
+            <p>Connect with me</p>
+            <SocialLinks id="contact-social-links" />
           </div>
         </div>
 

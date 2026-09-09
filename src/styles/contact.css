@@ -101,7 +101,8 @@
 }
 
 .contact-detail div span,
-.contact-detail div strong {
+.contact-detail div strong,
+.contact-detail div a {
   display: block;
   overflow-wrap: anywhere;
 }
@@ -121,6 +122,18 @@
   font-size: 0.74rem;
   font-weight: 600;
   line-height: 1.45;
+}
+
+.contact-detail div a {
+  color: rgb(248 247 255 / 86%);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.contact-detail div a:hover {
+  color: var(--color-pink);
 }
 
 .contact-socials {

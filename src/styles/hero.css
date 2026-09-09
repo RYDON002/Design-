@@ -30,6 +30,14 @@
   font-size: clamp(3.15rem, 5.1vw, 5.25rem);
 }
 
+.hero-role {
+  margin: -0.55rem 0 1rem;
+  color: rgb(248 247 255 / 82%);
+  font-size: clamp(0.9rem, 1.1vw, 1.05rem);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
 .gradient-text {
   color: transparent;
   background: var(--gradient-primary);

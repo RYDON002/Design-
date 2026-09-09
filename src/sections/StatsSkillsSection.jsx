@@ -3,48 +3,42 @@ import SectionHeading from '../components/SectionHeading'
 import '../styles/stats-skills.css'
 
 const stats = [
-  { value: '00+', label: 'Experience Placeholder', icon: 'sparkles' },
-  { value: '00+', label: 'Project Placeholder', icon: 'portfolio' },
-  { value: '00+', label: 'Technology Placeholder', icon: 'code' },
-  { value: '—', label: 'Outcome Placeholder', icon: 'layers' },
+  { value: 'Full', label: 'Stack Development', icon: 'sparkles' },
+  { value: 'UI', label: 'Design Focus', icon: 'portfolio' },
+  { value: 'API', label: 'Backend Development', icon: 'code' },
+  { value: 'Git', label: 'Driven Workflow', icon: 'layers' },
 ]
 
 const skillGroups = [
   {
     title: 'Frontend',
     icon: 'code',
-    skills: ['React', 'JavaScript', 'HTML', 'CSS'],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Responsive Design', 'Accessibility', 'Performance Optimization'],
   },
   {
     title: 'Backend',
     icon: 'layers',
-    skills: ['Node.js', 'APIs', 'Databases'],
+    skills: ['Node.js', 'Express', 'REST APIs', 'PostgreSQL', 'Authentication', 'JWT', 'Database Design'],
   },
   {
     title: 'Tools',
     icon: 'pen',
-    skills: ['Git', 'GitHub', 'VS Code', 'Figma'],
+    skills: ['Git', 'GitHub', 'VS Code', 'Figma', 'Docker', 'CI-ready workflows'],
   },
 ]
 
 const experienceItems = [
   {
-    role: 'Role Placeholder 01',
-    organization: 'Organization placeholder',
-    period: 'Date placeholder',
-    description: 'A short summary of responsibilities and the kind of work completed in this role.',
+    role: 'Full-Stack Development',
+    description: 'Building complete web solutions across frontend interfaces, backend services, APIs, and databases.',
   },
   {
-    role: 'Role Placeholder 02',
-    organization: 'Organization placeholder',
-    period: 'Date placeholder',
-    description: 'A concise space for describing relevant contribution, collaboration, and outcomes.',
+    role: 'UI & Product Design',
+    description: 'Designing responsive, accessible, and user-focused interfaces with attention to interaction and visual consistency.',
   },
   {
-    role: 'Role Placeholder 03',
-    organization: 'Organization placeholder',
-    period: 'Date placeholder',
-    description: 'A final temporary entry ready to be replaced with genuine experience information.',
+    role: 'Development Workflow',
+    description: 'Using Git-based workflows, maintainable architecture, testing-minded development, and deployment-ready practices.',
   },
 ]
 
@@ -92,8 +86,8 @@ function StatsSkillsSection() {
       <section className="skills-section" id="skills" aria-labelledby="skills-title">
         <SectionHeading
           eyebrow="My Expertise"
-          title="Skills & Experience"
-          description="Temporary skill and experience placeholders prepared for final portfolio content."
+          title="Skills & Approach"
+          description="Core skills and development approaches across design, frontend, backend, and workflow."
           titleId="skills-title"
         />
 
@@ -106,7 +100,7 @@ function StatsSkillsSection() {
           </div>
 
           <div className="experience-panel">
-            <p className="panel-label">Experience placeholders</p>
+            <p className="panel-label">Capability approach</p>
             <ol className="experience-list">
               {experienceItems.map((item) => (
                 <li className="experience-item" key={item.role}>
@@ -114,9 +108,8 @@ function StatsSkillsSection() {
                   <div className="experience-heading">
                     <div>
                       <h3>{item.role}</h3>
-                      <p>{item.organization}</p>
+                      <p>Capability focus</p>
                     </div>
-                    <span className="experience-period">{item.period}</span>
                   </div>
                   <p className="experience-description">{item.description}</p>
                 </li>

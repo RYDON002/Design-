@@ -3,10 +3,9 @@ import '../styles/navigation.css'
 
 const navigationItems = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#content-stage' },
   { label: 'Services', href: '#services' },
   { label: 'Portfolio', href: '#projects' },
-  { label: 'Blog', href: '#content-stage' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ]
 

@@ -4,11 +4,9 @@ import '../styles/sidebar.css'
 
 const navigationItems = [
   { label: 'Home', icon: 'home', href: '#home', active: true },
-  { label: 'About', icon: 'user', href: '#content-stage' },
   { label: 'Services', icon: 'services', href: '#services' },
   { label: 'Portfolio', icon: 'portfolio', href: '#projects' },
   { label: 'Skills', icon: 'skills', href: '#skills' },
-  { label: 'Blog', icon: 'blog', href: '#content-stage' },
   { label: 'Contact', icon: 'contact', href: '#contact' },
 ]
 
@@ -18,8 +16,8 @@ function Sidebar() {
       <a className="sidebar-brand" href="#content-stage" aria-label="Portfolio home">
         <span className="brand-mark" aria-hidden="true">R</span>
         <span className="brand-copy">
-          <strong>Portfolio</strong>
-          <span>Creative work</span>
+        <strong>RYDON</strong>
+          <span>Full-Stack &amp; UI Design</span>
         </span>
       </a>
 
@@ -49,8 +47,8 @@ function Sidebar() {
 
         <a className="download-link" href="#content-stage">
           <span>
-            <small>Download CV</small>
-            <strong>Portfolio CV</strong>
+            <small>Profile document</small>
+            <strong>CV placeholder</strong>
           </span>
           <Icon name="download" size={16} />
         </a>
