@@ -3,10 +3,10 @@ import SectionHeading from '../components/SectionHeading'
 import '../styles/stats-skills.css'
 
 const stats = [
-  { value: '3+', label: 'Years Experience', icon: 'sparkles' },
-  { value: '20+', label: 'Projects', icon: 'portfolio' },
-  { value: '10+', label: 'Technologies', icon: 'code' },
-  { value: '100%', label: 'Commitment', icon: 'layers' },
+  { value: '00+', label: 'Experience Placeholder', icon: 'sparkles' },
+  { value: '00+', label: 'Project Placeholder', icon: 'portfolio' },
+  { value: '00+', label: 'Technology Placeholder', icon: 'code' },
+  { value: '—', label: 'Outcome Placeholder', icon: 'layers' },
 ]
 
 const skillGroups = [

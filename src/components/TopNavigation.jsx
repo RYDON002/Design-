@@ -19,7 +19,7 @@ function TopNavigation() {
             className={index === 0 ? 'is-active' : undefined}
             href={item.href}
             key={item.label}
-            aria-current={index === 0 ? 'page' : undefined}
+            aria-current={index === 0 ? 'location' : undefined}
           >
             {item.label}
           </a>

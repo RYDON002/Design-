@@ -62,7 +62,7 @@ function TestimonialsSection() {
                 type="button"
                 onClick={() => setActiveIndex(index)}
                 aria-label={`Show ${testimonial.name} placeholder`}
-                aria-current={index === activeIndex ? 'true' : undefined}
+                aria-pressed={index === activeIndex}
               />
             ))}
           </div>

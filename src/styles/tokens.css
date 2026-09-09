@@ -38,7 +38,7 @@
   --content-max-width: 76rem;
   --sidebar-width: 15rem;
   --desktop-gutter: clamp(2rem, 4vw, 4.5rem);
-  --section-space: clamp(4.5rem, 8vw, 7.5rem);
+  --section-space: clamp(4.25rem, 6.5vw, 6rem);
   --grid-gap: clamp(1rem, 2vw, 1.5rem);
   --page-padding-inline: clamp(1rem, 4vw, 2rem);
 
@@ -58,7 +58,7 @@
 @media (max-width: 63.999rem) {
   :root {
     --desktop-gutter: clamp(1.5rem, 4vw, 2.5rem);
-    --section-space: clamp(4rem, 7vw, 5.5rem);
+    --section-space: clamp(3.75rem, 6vw, 5rem);
   }
 }
 
@@ -66,7 +66,7 @@
 @media (max-width: 47.999rem) {
   :root {
     --page-padding-inline: clamp(1rem, 5vw, 1.5rem);
-    --section-space: clamp(3.5rem, 12vw, 4.5rem);
+    --section-space: clamp(3.5rem, 10vw, 4rem);
     --grid-gap: 1rem;
   }
 }

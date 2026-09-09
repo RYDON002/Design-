@@ -19,19 +19,19 @@ function HeroSection() {
           </p>
 
           <div className="hero-actions">
-            <a className="hero-button hero-button-primary" href="#content-stage">
+            <a className="hero-button hero-button-primary" href="#projects">
               <span>View My Work</span>
               <Icon name="arrow" size={16} />
             </a>
-            <a className="hero-button hero-button-secondary" href="#content-stage">
+            <a className="hero-button hero-button-secondary" href="#contact">
               <Icon name="send" size={16} />
               <span>Contact Me</span>
             </a>
           </div>
 
-          <div className="hero-availability" aria-label="Currently available for selected projects">
+          <div className="hero-availability" aria-label="Availability status placeholder">
             <span className="availability-dot" aria-hidden="true" />
-            <span>Available for selected projects</span>
+            <span>Availability status placeholder</span>
           </div>
         </div>
 
@@ -46,14 +46,14 @@ function HeroSection() {
           <img className="hero-portrait" src={portraitPlaceholder} alt="" />
 
           <div className="experience-badge">
-            <strong>3+</strong>
-            <span>Years<br />Experience</span>
+            <strong>00+</strong>
+            <span>Experience<br />Placeholder</span>
           </div>
         </div>
       </div>
 
       <div className="hero-trust" aria-label="Client placeholders">
-        <p>Creating with teams and clients worldwide</p>
+        <p>Future client and collaborator placeholders</p>
         <div className="trust-list">
           {trustItems.map((item, index) => (
             <span className="trust-item" key={item}>

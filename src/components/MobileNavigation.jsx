@@ -138,7 +138,7 @@ function MobileNavigation() {
                 key={item.label}
                 onClick={closeMenu}
                 tabIndex={isOpen ? 0 : -1}
-                aria-current={item.active ? 'page' : undefined}
+                aria-current={item.active ? 'location' : undefined}
               >
                 <Icon name={item.icon} size={19} />
                 <span>{item.label}</span>

@@ -29,7 +29,7 @@ function Sidebar() {
             className={`sidebar-link${item.active ? ' is-active' : ''}`}
             href={item.href}
             key={item.label}
-            aria-current={item.active ? 'page' : undefined}
+            aria-current={item.active ? 'location' : undefined}
           >
             <Icon name={item.icon} size={18} />
             <span>{item.label}</span>
@@ -39,9 +39,9 @@ function Sidebar() {
 
       <div className="sidebar-lower">
         <div className="availability-card">
-          <p className="availability-title">Available for<br />Freelance Projects</p>
-          <p>Have a project in mind? Let&apos;s create something meaningful.</p>
-          <a className="hire-button" href="#content-stage">
+          <p className="availability-title">Availability<br />Placeholder</p>
+          <p>Add a short availability note here when your details are ready.</p>
+          <a className="hire-button" href="#contact">
             <span>Hire Me</span>
             <Icon name="arrow" size={15} />
           </a>
