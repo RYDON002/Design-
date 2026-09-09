@@ -16,7 +16,7 @@ function Sidebar() {
       <a className="sidebar-brand" href="#content-stage" aria-label="Portfolio home">
         <span className="brand-mark" aria-hidden="true">R</span>
         <span className="brand-copy">
-        <strong>RYDON</strong>
+        <strong>MUBARAK GONI SULE</strong>
           <span>Full-Stack &amp; UI Design</span>
         </span>
       </a>

@@ -144,10 +144,12 @@
 .hero-portrait {
   position: absolute;
   z-index: 1;
-  bottom: 0;
+  bottom: 10%;
   left: 50%;
-  width: min(31rem, 98%);
-  max-height: 36rem;
+  width: min(29.5rem, 96%);
+  max-height: 34rem;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 84%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 84%, transparent 100%);
   object-fit: contain;
   object-position: center bottom;
   filter: saturate(0.82) contrast(1.04);
@@ -329,6 +331,7 @@
   }
 
   .hero-portrait {
+    width: min(29.5rem, 96%);
     max-height: 100%;
   }
 
@@ -384,7 +387,7 @@
   }
 
   .hero-portrait {
-    width: min(27rem, 116%);
+    width: 95%;
   }
 
   .portrait-halo {

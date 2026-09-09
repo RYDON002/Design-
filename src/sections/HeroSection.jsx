@@ -1,5 +1,5 @@
 import Icon from '../components/Icon'
-import profilePortrait from '../assets/rydon-profile.png'
+import profilePortrait from '../assets/rydon-profile-transparent.png'
 import '../styles/hero.css'
 
 const trustItems = ['Studio 01', 'Collective 02', 'Partner 03', 'Client 04']
@@ -9,9 +9,9 @@ function HeroSection() {
     <section className="hero-section" id="home" aria-labelledby="hero-title">
       <div className="hero-primary">
         <div className="hero-copy">
-          <p className="eyebrow hero-eyebrow">Hello, It&apos;s Me</p>
+          <p className="eyebrow hero-eyebrow">Hello</p>
           <h1 id="hero-title">
-            Mubarak <span className="gradient-text">Goni Sule</span>
+            It&apos;s me <span className="gradient-text">RYDON</span>
           </h1>
           <p className="hero-role">Full-Stack Developer &amp; UI Designer</p>
           <p className="hero-introduction">
