@@ -4,6 +4,7 @@ import TopNavigation from './components/TopNavigation'
 import HeroSection from './sections/HeroSection'
 import ServicesSection from './sections/ServicesSection'
 import ProjectsSection from './sections/ProjectsSection'
+import StatsSkillsSection from './sections/StatsSkillsSection'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <HeroSection />
             <ServicesSection />
             <ProjectsSection />
+            <StatsSkillsSection />
           </div>
         </div>
       </main>
