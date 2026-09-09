@@ -6,7 +6,7 @@ const trustItems = ['Studio 01', 'Collective 02', 'Partner 03', 'Client 04']
 
 function HeroSection() {
   return (
-    <section className="hero-section" aria-labelledby="hero-title">
+    <section className="hero-section" id="home" aria-labelledby="hero-title">
       <div className="hero-primary">
         <div className="hero-copy">
           <p className="eyebrow hero-eyebrow">Hello, I&apos;m</p>

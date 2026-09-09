@@ -3,13 +3,13 @@ import SocialLinks from './SocialLinks'
 import '../styles/sidebar.css'
 
 const navigationItems = [
-  { label: 'Home', icon: 'home', active: true },
-  { label: 'About', icon: 'user' },
-  { label: 'Services', icon: 'services' },
-  { label: 'Portfolio', icon: 'portfolio' },
-  { label: 'Skills', icon: 'skills' },
-  { label: 'Blog', icon: 'blog' },
-  { label: 'Contact', icon: 'contact' },
+  { label: 'Home', icon: 'home', href: '#home', active: true },
+  { label: 'About', icon: 'user', href: '#content-stage' },
+  { label: 'Services', icon: 'services', href: '#services' },
+  { label: 'Portfolio', icon: 'portfolio', href: '#projects' },
+  { label: 'Skills', icon: 'skills', href: '#skills' },
+  { label: 'Blog', icon: 'blog', href: '#content-stage' },
+  { label: 'Contact', icon: 'contact', href: '#contact' },
 ]
 
 function Sidebar() {
@@ -27,7 +27,7 @@ function Sidebar() {
         {navigationItems.map((item) => (
           <a
             className={`sidebar-link${item.active ? ' is-active' : ''}`}
-            href="#content-stage"
+            href={item.href}
             key={item.label}
             aria-current={item.active ? 'page' : undefined}
           >

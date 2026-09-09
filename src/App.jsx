@@ -1,6 +1,7 @@
 import './styles/app.css'
 import Sidebar from './components/Sidebar'
 import TopNavigation from './components/TopNavigation'
+import MobileNavigation from './components/MobileNavigation'
 import HeroSection from './sections/HeroSection'
 import ServicesSection from './sections/ServicesSection'
 import ProjectsSection from './sections/ProjectsSection'
@@ -16,6 +17,7 @@ function App() {
 
       <main className="main-shell" aria-label="Portfolio">
         <div className="main-panel">
+          <MobileNavigation />
           <TopNavigation />
 
           <div className="content-stage" id="content-stage">

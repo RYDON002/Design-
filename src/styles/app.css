@@ -41,6 +41,10 @@
     min-height: calc(100vh - 1.25rem);
     min-height: calc(100svh - 1.25rem);
   }
+
+  .content-stage {
+    padding-top: 5.5rem;
+  }
 }
 
 @media (max-width: 47.999rem) {
@@ -58,5 +62,6 @@
   .content-stage {
     min-height: 100vh;
     min-height: 100svh;
+    padding-top: 5.25rem;
   }
 }

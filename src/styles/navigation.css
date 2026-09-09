@@ -74,12 +74,6 @@
 
 @media (max-width: 64rem) {
   .top-navigation {
-    padding-inline: var(--desktop-gutter);
-  }
-}
-
-@media (max-width: 47.999rem) {
-  .top-navigation {
     display: none;
   }
 }
