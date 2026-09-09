@@ -1,5 +1,5 @@
 import Icon from '../components/Icon'
-import portraitPlaceholder from '../assets/portrait-placeholder.svg'
+import profilePortrait from '../assets/rydon-profile.png'
 import '../styles/hero.css'
 
 const trustItems = ['Studio 01', 'Collective 02', 'Partner 03', 'Client 04']
@@ -45,7 +45,7 @@ function HeroSection() {
           <span className="orbit-dot orbit-dot-two" />
           <span className="orbit-spark orbit-spark-one">+</span>
           <span className="orbit-spark orbit-spark-two">✦</span>
-          <img className="hero-portrait" src={portraitPlaceholder} alt="" />
+          <img className="hero-portrait" src={profilePortrait} alt="Mubarak Goni Sule" />
 
           <div className="experience-badge">
             <strong>00+</strong>
