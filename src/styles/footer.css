@@ -1,0 +1,124 @@
+.site-footer {
+  margin: 0 var(--desktop-gutter);
+  padding: 1.75rem 0 1.5rem;
+  border-top: 1px solid rgb(167 139 250 / 11%);
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) auto minmax(0, 0.55fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-brand {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-brand-mark {
+  display: grid;
+  width: 2.35rem;
+  height: 2.35rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 0.65rem;
+  color: var(--color-text-primary);
+  background: var(--gradient-primary);
+  box-shadow: var(--glow-purple);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.footer-brand strong {
+  display: block;
+  margin-bottom: 0.1rem;
+  color: rgb(248 247 255 / 84%);
+  font-size: 0.72rem;
+}
+
+.footer-brand p,
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.61rem;
+  line-height: 1.5;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.15rem;
+}
+
+.footer-navigation a {
+  color: rgb(248 247 255 / 58%);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.footer-navigation a:hover {
+  color: var(--color-text-primary);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-socials .social-links a {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.35rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgb(167 139 250 / 7%);
+}
+
+@media (max-width: 56rem) {
+  .footer-main {
+    grid-template-columns: 1fr auto;
+  }
+
+  .footer-navigation {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 47.999rem) {
+  .site-footer {
+    margin-inline: var(--page-padding-inline);
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 1.35rem;
+  }
+
+  .footer-navigation {
+    grid-column: auto;
+    grid-row: auto;
+    justify-content: flex-start;
+  }
+
+  .footer-socials {
+    justify-content: flex-start;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+}

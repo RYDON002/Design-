@@ -6,11 +6,15 @@ const socialLinks = [
   { label: 'GitHub profile', icon: 'github' },
 ]
 
-function SocialLinks() {
+function SocialLinks({ id = 'social-links', href = '#social-links', placeholder = false }) {
   return (
-    <div className="social-links" id="social-links" aria-label="Social links">
+    <div className="social-links" id={id} aria-label={placeholder ? 'Social link placeholders' : 'Social links'}>
       {socialLinks.map((item) => (
-        <a key={item.label} href="#social-links" aria-label={item.label}>
+        <a
+          key={item.label}
+          href={href}
+          aria-label={placeholder ? `${item.label} placeholder` : item.label}
+        >
           <Icon name={item.icon} size={17} />
         </a>
       ))}

@@ -6,6 +6,8 @@ import ServicesSection from './sections/ServicesSection'
 import ProjectsSection from './sections/ProjectsSection'
 import StatsSkillsSection from './sections/StatsSkillsSection'
 import TestimonialsSection from './sections/TestimonialsSection'
+import ContactSection from './sections/ContactSection'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <ProjectsSection />
             <StatsSkillsSection />
             <TestimonialsSection />
+            <ContactSection />
+            <Footer />
           </div>
         </div>
       </main>
