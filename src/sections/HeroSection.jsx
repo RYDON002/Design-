@@ -2,7 +2,7 @@ import Icon from '../components/Icon'
 import profilePortrait from '../assets/rydon-profile-transparent.png'
 import '../styles/hero.css'
 
-const trustItems = ['Studio 01', 'Collective 02', 'Partner 03', 'Client 04']
+const trustItems = ['React', 'Node.js', 'PostgreSQL', 'GitHub']
 
 function HeroSection() {
   return (
@@ -31,9 +31,9 @@ function HeroSection() {
             </a>
           </div>
 
-          <div className="hero-availability" aria-label="Availability status placeholder">
+          <div className="hero-availability" aria-label="Availability status">
             <span className="availability-dot" aria-hidden="true" />
-            <span>Availability status placeholder</span>
+            <span>Available for selected projects</span>
           </div>
         </div>
 
@@ -48,14 +48,14 @@ function HeroSection() {
           <img className="hero-portrait" src={profilePortrait} alt="Mubarak Goni Sule" />
 
           <div className="experience-badge">
-            <strong>00+</strong>
-            <span>Full-Stack<br />Developer</span>
+            <strong>4+</strong>
+            <span>Years<br />Experience</span>
           </div>
         </div>
       </div>
 
-      <div className="hero-trust" aria-label="Client placeholders">
-        <p>Future client and collaborator placeholders</p>
+      <div className="hero-trust" aria-label="Core technologies and workflow">
+        <p>Core technologies &amp; workflow</p>
         <div className="trust-list">
           {trustItems.map((item, index) => (
             <span className="trust-item" key={item}>

@@ -145,10 +145,25 @@
 
 .download-link {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  border: 0;
   color: var(--color-text-secondary);
+  background: transparent;
+  text-align: left;
   text-decoration: none;
+}
+
+.cv-status {
+  margin: 0.45rem 0 0;
+  font-size: 0.63rem;
+  line-height: 1.5;
+}
+
+.cv-status:empty {
+  display: none;
 }
 
 .download-link span {

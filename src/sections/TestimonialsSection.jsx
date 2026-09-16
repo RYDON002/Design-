@@ -5,22 +5,22 @@ import '../styles/testimonials.css'
 
 const testimonials = [
   {
-    quote: 'Placeholder feedback describing a thoughtful and collaborative project experience.',
-    name: 'Client One',
-    role: 'Project Collaborator',
-    initials: 'C1',
+    quote: 'Rydon is a focused and dependable developer who approaches projects with strong technical thinking and attention to detail. He communicates clearly, solves problems practically, and is committed to delivering quality digital solutions.',
+    name: 'Dev Bello',
+    role: 'CEO, BelNavo Tech',
+    initials: 'DB',
   },
   {
-    quote: 'This temporary quote can later be replaced with approved feedback from a real collaborator.',
-    name: 'Client Two',
-    role: 'Creative Collaborator',
-    initials: 'C2',
+    quote: 'Additional feedback will appear here when approved for publication.',
+    name: 'More feedback soon',
+    role: 'Awaiting approval',
+    initials: '—',
   },
   {
-    quote: 'Sample testimonial copy reserved for a future verified client or project reference.',
-    name: 'Client Three',
-    role: 'Development Collaborator',
-    initials: 'C3',
+    quote: 'This space is reserved for another approved testimonial.',
+    name: 'Further feedback',
+    role: 'Awaiting approval',
+    initials: '—',
   },
 ]
 
@@ -45,7 +45,7 @@ function TestimonialsSection() {
         <SectionHeading
           eyebrow="Testimonials"
           title="What People Say"
-          description="Sample testimonial content for layout only, ready to be replaced with approved feedback."
+          description="Feedback on the work and collaboration behind these projects."
           titleId="testimonials-title"
         />
 
@@ -61,7 +61,7 @@ function TestimonialsSection() {
                 key={testimonial.name}
                 type="button"
                 onClick={() => setActiveIndex(index)}
-                aria-label={`Show ${testimonial.name} placeholder`}
+                aria-label={`Show ${testimonial.name} testimonial`}
                 aria-pressed={index === activeIndex}
               />
             ))}
@@ -74,7 +74,7 @@ function TestimonialsSection() {
       </div>
 
       <p className="sr-only" aria-live="polite" aria-atomic="true">
-        {`${testimonials[activeIndex].name} is the first visible placeholder testimonial.`}
+        {`${testimonials[activeIndex].name} is the first visible testimonial.`}
       </p>
 
       <div className="testimonials-grid" id="testimonial-cards" role="list">

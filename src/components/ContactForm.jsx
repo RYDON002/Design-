@@ -63,9 +63,9 @@ function ContactForm() {
   return (
     <div className="contact-form-panel">
       <div className="contact-form-heading">
-        <p className="panel-label">Frontend form preview</p>
+        <p className="panel-label">Contact form</p>
         <h3>Start a Conversation</h3>
-        <p>This form is ready for a future delivery integration.</p>
+        <p>Messages are not sent yet. Please use email or WhatsApp to get in touch.</p>
       </div>
 
       <form className="contact-form" onSubmit={handleSubmit} noValidate>

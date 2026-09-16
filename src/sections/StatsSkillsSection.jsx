@@ -3,10 +3,10 @@ import SectionHeading from '../components/SectionHeading'
 import '../styles/stats-skills.css'
 
 const stats = [
-  { value: 'Full', label: 'Stack Development', icon: 'sparkles' },
-  { value: 'UI', label: 'Design Focus', icon: 'portfolio' },
-  { value: 'API', label: 'Backend Development', icon: 'code' },
-  { value: 'Git', label: 'Driven Workflow', icon: 'layers' },
+  { value: '4+', label: 'Years Experience', icon: 'sparkles' },
+  { value: '50+', label: 'Projects Completed', icon: 'portfolio' },
+  { value: '15+', label: 'Technologies', icon: 'code' },
+  { value: '100+', label: 'Clients', icon: 'layers' },
 ]
 
 const skillGroups = [
@@ -63,7 +63,7 @@ function SkillGroup({ title, icon, skills }) {
         <span aria-hidden="true"><Icon name={icon} size={17} /></span>
         <h3>{title}</h3>
       </div>
-      <ul className="skill-list" aria-label={`${title} skill placeholders`}>
+      <ul className="skill-list" aria-label={`${title} skills`}>
         {skills.map((skill) => <li key={skill}>{skill}</li>)}
       </ul>
     </div>
@@ -74,9 +74,9 @@ function StatsSkillsSection() {
   return (
     <>
       <section className="stats-section" aria-labelledby="stats-title">
-        <h2 className="sr-only" id="stats-title">Placeholder portfolio statistics</h2>
+        <h2 className="sr-only" id="stats-title">Portfolio statistics</h2>
         <div className="stats-strip">
-          <p className="stats-placeholder-note">Sample metrics</p>
+          <p className="stats-placeholder-note">By the numbers</p>
           <dl className="stats-list">
             {stats.map((stat) => <StatItem key={stat.label} {...stat} />)}
           </dl>
@@ -93,7 +93,7 @@ function StatsSkillsSection() {
 
         <div className="expertise-grid">
           <div className="skills-panel">
-            <p className="panel-label">Temporary skill set</p>
+            <p className="panel-label">Technical skills</p>
             <div className="skill-groups">
               {skillGroups.map((group) => <SkillGroup key={group.title} {...group} />)}
             </div>
