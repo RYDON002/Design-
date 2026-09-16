@@ -51,6 +51,8 @@
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   overflow: hidden;
   border: var(--border-subtle);
@@ -67,6 +69,16 @@
   border-bottom: 1px solid rgb(167 139 250 / 10%);
   background: var(--color-surface-elevated);
   isolation: isolate;
+}
+
+.project-thumbnail img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: scale 220ms ease;
 }
 
 .project-thumbnail::before {
@@ -401,6 +413,9 @@
 }
 
 .project-card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 1.2rem 1.25rem 1.3rem;
 }
 
@@ -452,6 +467,34 @@
   line-height: 1.6;
 }
 
+.project-action {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.45rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.project-action:hover,
+.project-action:focus-visible {
+  color: var(--color-magenta);
+}
+
+.project-action svg {
+  transition: transform 180ms ease;
+}
+
+.project-action:hover svg,
+.project-action:focus-visible svg {
+  transform: translateX(0.2rem);
+}
+
 @media (hover: hover) and (pointer: fine) {
   .project-card:hover,
   .project-card:focus-within {
@@ -460,8 +503,8 @@
     transform: translateY(-0.25rem);
   }
 
-  .project-card:hover .project-thumbnail > div,
-  .project-card:focus-within .project-thumbnail > div {
+  .project-card:hover .project-thumbnail img,
+  .project-card:focus-within .project-thumbnail img {
     scale: 1.015;
   }
 }

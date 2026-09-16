@@ -1,32 +1,44 @@
 import Icon from '../components/Icon'
 import ProjectCard from '../components/ProjectCard'
 import SectionHeading from '../components/SectionHeading'
+import mhwunScreenshot from '../assets/mhwun-project.png'
+import highTechScreenshot from '../assets/high-tech-project.png'
+import belnavoScreenshot from '../assets/belnavo-project.png'
+import globalmartScreenshot from '../assets/globalmart-project.png'
 import '../styles/projects.css'
 
 const projects = [
   {
-    category: 'Responsive Web',
-    title: 'Business Website',
-    description: 'A polished web presence with clear content structure and purposeful interactions.',
-    visual: 'website',
+    category: 'Union / Membership Platform',
+    title: 'MHWUN Katsina State Council Website',
+    description: 'Official digital platform for the Medical and Health Workers Union of Nigeria, Katsina State Council, providing union information, updates, membership resources, and digital member services.',
+    screenshot: mhwunScreenshot,
+    actionLabel: 'View Live',
+    url: 'https://mhwunktn.org/',
   },
   {
-    category: 'Product Interface',
-    title: 'Web Application',
-    description: 'A focused application concept that makes complex information easier to navigate.',
-    visual: 'application',
+    category: 'Corporate Website',
+    title: 'High Tech & Technology Welders',
+    description: 'Responsive corporate website presenting company services, projects, industries, business information, and quotation/contact pathways.',
+    screenshot: highTechScreenshot,
+    actionLabel: 'View Live',
+    url: 'https://httwcorg.vercel.app/',
   },
   {
-    category: 'Visual System',
-    title: 'Brand Platform',
-    description: 'A flexible digital identity system designed for consistent presentation across screens.',
-    visual: 'brand',
+    category: 'Digital Services Platform',
+    title: 'BelNavo Tech',
+    description: 'A digital services platform showcasing web development, design, branding and related services, with online booking and business management functionality.',
+    screenshot: belnavoScreenshot,
+    actionLabel: 'View Live',
+    url: 'https://belnavo-tech.onrender.com/',
   },
   {
-    category: 'Interactive Design',
-    title: 'Digital Experience',
-    description: 'A responsive experience concept balancing visual character with intuitive usability.',
-    visual: 'experience',
+    category: 'E-commerce Frontend',
+    title: 'GlobalMart',
+    description: 'Responsive e-commerce mall frontend with product categories, shopping-cart interactions, product browsing, and administrative interface elements.',
+    screenshot: globalmartScreenshot,
+    actionLabel: 'View Code',
+    url: 'https://github.com/RYDON002/GlobalMart-Mall-Frontend.git',
   },
 ]
 
@@ -37,7 +49,7 @@ function ProjectsSection() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Featured Projects"
-          description="A small collection of temporary project concepts demonstrating the intended portfolio presentation."
+          description="A selection of real websites and digital platforms."
           titleId="projects-title"
         />
 
