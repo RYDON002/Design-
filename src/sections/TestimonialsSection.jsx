@@ -11,16 +11,16 @@ const testimonials = [
     initials: 'DB',
   },
   {
-    quote: 'Additional feedback will appear here when approved for publication.',
-    name: 'More feedback soon',
-    role: 'Awaiting approval',
-    initials: '—',
+    quote: 'Your dedication to building this tech ecosystem has always stood out. You keep learning, building, and pushing through challenges, and that consistency is what makes Dev Rydon a name people can respect.',
+    name: 'Show_guy_Fx',
+    role: 'Tech Community Supporter · Paraphrased from prior feedback',
+    initials: 'SF',
   },
   {
-    quote: 'This space is reserved for another approved testimonial.',
-    name: 'Further feedback',
-    role: 'Awaiting approval',
-    initials: '—',
+    quote: 'Rydon’s commitment to technology is clear in the way he approaches every project. He works hard, keeps improving, and stays focused on turning ideas into real digital solutions.',
+    name: 'Amospikins',
+    role: 'Tech Community Supporter · Paraphrased from prior feedback',
+    initials: 'AM',
   },
 ]
 
