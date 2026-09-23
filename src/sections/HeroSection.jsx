@@ -9,9 +9,9 @@ function HeroSection() {
     <section className="hero-section" id="home" aria-labelledby="hero-title">
       <div className="hero-primary">
         <div className="hero-copy">
-          <p className="eyebrow hero-eyebrow">Hello</p>
+          <p className="eyebrow hero-eyebrow">HELLO, I&apos;M</p>
           <h1 id="hero-title">
-            It&apos;s me <span className="gradient-text">RYDON</span>
+            <span className="gradient-text">RYDON</span>
           </h1>
           <p className="hero-role">Full-Stack Developer &amp; UI Designer</p>
           <p className="hero-introduction">
